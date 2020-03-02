@@ -90,6 +90,7 @@ class WordCloudWindow(QWidget):
     
     def showMessage(self):
         QMessageBox.about(self,'','制作完成')
+        sys.exit()
 
                 
 if __name__=='__main__':
